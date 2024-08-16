@@ -1,6 +1,7 @@
 # Houne Tools Blender Addon
 
 Houne Tools — это аддон для Blender, который позволяет пользователям генерировать и выполнять Python-скрипты прямо из 3D Viewport на основе текстовых подсказок.
+
 ![Houne Tools](https://github.com/houneTeam/HouneGenerativeTool/blob/main/image.png)
 
 ## Особенности
@@ -46,6 +47,7 @@ Houne Tools — это аддон для Blender, который позволя�
 # Houne Tools Blender Addon
 
 Houne Tools is a Blender addon that allows users to generate and execute Python scripts directly from the 3D Viewport based on text prompts.
+
 ![Houne Tools](https://github.com/houneTeam/HouneGenerativeTool/blob/main/image.png)
 
 ## Features
