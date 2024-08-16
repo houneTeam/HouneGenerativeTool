@@ -1,6 +1,6 @@
-# Houne Tools Blender Addon
+# Houne Generative Tool
 
-Houne Tools — это аддон для Blender, который позволяет пользователям генерировать и выполнять Python-скрипты прямо из 3D Viewport на основе текстовых подсказок.
+Houne Generative Tool — это аддон для Blender, который позволяет пользователям генерировать и выполнять Python-скрипты прямо из 3D Viewport на основе текстовых подсказок.
 
 ![Houne Tools](https://github.com/houneTeam/HouneGenerativeTool/blob/main/image.png)
 
@@ -24,10 +24,7 @@ Houne Tools — это аддон для Blender, который позволя�
 2. После установки загрузите необходимую модель, выполнив команду: `ollama run llama3.1` в терминале.
 3. Найдите исполняемый файл Python, используемый Blender, обычно он находится по пути `\3.6\python\bin\python.exe`.
 4. Используйте этот исполняемый файл Python для установки всех необходимых библиотек. Откройте командную строку или терминал, перейдите в каталог Python для Blender и выполните следующую команду:
-   ```
-~\3.6\python\bin\python.exe -m pip install ollama
-   ```
-   Замените `<required_libraries>` на названия необходимых библиотек Python.
+'python.exe -m pip install ollama'
 5. Скачайте этот репозиторий как ZIP-файл.
 6. Откройте Blender, перейдите в `Edit > Preferences > Add-ons`.
 7. Нажмите `Install` и выберите загруженный ZIP-файл.
@@ -44,9 +41,9 @@ Houne Tools — это аддон для Blender, который позволя�
 
 ========================================
 
-# Houne Tools Blender Addon
+# Houne Generative Tool
 
-Houne Tools is a Blender addon that allows users to generate and execute Python scripts directly from the 3D Viewport based on text prompts.
+Houne Generative Tool is a Blender addon that allows users to generate and execute Python scripts directly from the 3D Viewport based on text prompts.
 
 ![Houne Tools](https://github.com/houneTeam/HouneGenerativeTool/blob/main/image.png)
 
@@ -69,11 +66,8 @@ While the `llama3.1` model provides good results, you may see better script gene
 1. Download and install Ollama from the official website: [Ollama Download](https://ollama.com/download).
 2. After installation, download the required model by running the command: `ollama run llama3.1` in the terminal.
 3. Locate the Python executable used by Blender, typically found at `\3.6\python\bin\python.exe`.
-4. Use this Python executable to install all the necessary libraries. Open a command prompt or terminal and navigate to the Blender Python directory, then run the following command:
-   ```
-~\3.6\python\bin\python.exe -m pip install ollama
-   ```
-   Replace `<required_libraries>` with the names of the necessary Python packages.
+4. Use this Python executable to install all the necessary libraries. Open a command prompt or terminal and navigate to the Blender Python 
+'python.exe -m pip install ollama'
 5. Download this repository as a ZIP file.
 6. Open Blender, go to `Edit > Preferences > Add-ons`.
 7. Click `Install` and select the downloaded ZIP file.
