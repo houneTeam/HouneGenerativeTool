@@ -24,7 +24,7 @@ Houne Generative Tool — это аддон для Blender, который по�
 2. После установки загрузите необходимую модель, выполнив команду: `ollama run llama3.1` в терминале.
 3. Найдите исполняемый файл Python, используемый Blender, обычно он находится по пути `\3.6\python\bin\python.exe`.
 4. Используйте этот исполняемый файл Python для установки всех необходимых библиотек. Откройте командную строку или терминал, перейдите в каталог Python для Blender и выполните следующую команду:
-'python.exe -m pip install ollama'
+`python.exe -m pip install ollama`
 5. Скачайте этот репозиторий как ZIP-файл.
 6. Откройте Blender, перейдите в `Edit > Preferences > Add-ons`.
 7. Нажмите `Install` и выберите загруженный ZIP-файл.
@@ -67,7 +67,7 @@ While the `llama3.1` model provides good results, you may see better script gene
 2. After installation, download the required model by running the command: `ollama run llama3.1` in the terminal.
 3. Locate the Python executable used by Blender, typically found at `\3.6\python\bin\python.exe`.
 4. Use this Python executable to install all the necessary libraries. Open a command prompt or terminal and navigate to the Blender Python 
-'python.exe -m pip install ollama'
+`python.exe -m pip install ollama`
 5. Download this repository as a ZIP file.
 6. Open Blender, go to `Edit > Preferences > Add-ons`.
 7. Click `Install` and select the downloaded ZIP file.
