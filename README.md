@@ -23,7 +23,7 @@ While the `llama3.1` model provides good results, you may see better script gene
 3. Locate the Python executable used by Blender, typically found at `\3.6\python\bin\python.exe`.
 4. Use this Python executable to install all the necessary libraries. Open a command prompt or terminal and navigate to the Blender Python directory, then run the following command:
    ```
-   \path	\3.6\python\bin\python.exe -m pip install ollama
+~\3.6\python\bin\python.exe -m pip install ollama
    ```
    Replace `<required_libraries>` with the names of the necessary Python packages.
 5. Download this repository as a ZIP file.
