@@ -1,6 +1,52 @@
 # Houne Tools Blender Addon
 
+Houne Tools — это аддон для Blender, который позволяет пользователям генерировать и выполнять Python-скрипты прямо из 3D Viewport на основе текстовых подсказок.
+![Houne Tools](https://github.com/houneTeam/HouneGenerativeTool/blob/main/image.png)
+
+## Особенности
+
+- Генерация Python-скриптов для Blender с использованием естественных языковых подсказок.
+- Выполнение скриптов непосредственно в 3D Viewport Blender.
+- Простой и интуитивно понятный интерфейс.
+
+## Интеграция Ollama API
+
+Этот аддон использует [Ollama](https://ollama.com) API для генерации Python-скриптов. Мы используем модель `llama3.1` по умолчанию, которая разработана для общих языковых задач, включая генерацию кода.
+
+### Улучшение Результатов
+
+Хотя модель `llama3.1` обеспечивает хорошие результаты, вы можете получить более точные ответы и улучшить генерацию скриптов, используя более продвинутую модель от Ollama. Если у вас есть доступ к более продвинутой модели, такой как `llama4.0` или любой другой версии, мы рекомендуем переключиться на неё в функции `generate_blender_script` для улучшения результатов.
+
+## Установка
+
+1. Скачайте и установите Ollama с официального сайта: [Ollama Download](https://ollama.com/download).
+2. После установки загрузите необходимую модель, выполнив команду: `ollama run llama3.1` в терминале.
+3. Найдите исполняемый файл Python, используемый Blender, обычно он находится по пути `\3.6\python\bin\python.exe`.
+4. Используйте этот исполняемый файл Python для установки всех необходимых библиотек. Откройте командную строку или терминал, перейдите в каталог Python для Blender и выполните следующую команду:
+   ```
+~\3.6\python\bin\python.exe -m pip install ollama
+   ```
+   Замените `<required_libraries>` на названия необходимых библиотек Python.
+5. Скачайте этот репозиторий как ZIP-файл.
+6. Откройте Blender, перейдите в `Edit > Preferences > Add-ons`.
+7. Нажмите `Install` и выберите загруженный ZIP-файл.
+8. Активируйте аддон, отметив галочкой "Houne Tools".
+
+## Использование
+
+1. Откройте 3D Viewport в Blender.
+2. Нажмите `N`, чтобы открыть боковую панель.
+3. Перейдите на вкладку "HouneTools".
+4. Введите ваш запрос в текстовое поле и нажмите "Generate".
+5. Сгенерированный скрипт будет выполнен автоматически.
+
+
+========================================
+
+# Houne Tools Blender Addon
+
 Houne Tools is a Blender addon that allows users to generate and execute Python scripts directly from the 3D Viewport based on text prompts.
+![Houne Tools](https://github.com/houneTeam/HouneGenerativeTool/blob/main/image.png)
 
 ## Features
 
@@ -38,3 +84,4 @@ While the `llama3.1` model provides good results, you may see better script gene
 3. Navigate to the "HouneTools" tab.
 4. Enter your prompt in the text box and click "Generate".
 5. The generated script will be executed automatically.
+
