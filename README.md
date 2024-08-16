@@ -18,10 +18,18 @@ While the `llama3.1` model provides good results, you may see better script gene
 
 ## Installation
 
-1. Download the repository as a ZIP file.
-2. Open Blender, go to `Edit > Preferences > Add-ons`.
-3. Click `Install` and select the downloaded ZIP file.
-4. Activate the addon by checking the box next to "Houne Tools".
+1. Download and install Ollama from the official website: [Ollama Download](https://ollama.com/download).
+2. After installation, download the required model by running the command: `ollama run llama3.1` in the terminal.
+3. Locate the Python executable used by Blender, typically found at `\3.6\python\bin\python.exe`.
+4. Use this Python executable to install all the necessary libraries. Open a command prompt or terminal and navigate to the Blender Python directory, then run the following command:
+   ```
+   \path	\3.6\python\bin\python.exe -m pip install ollama
+   ```
+   Replace `<required_libraries>` with the names of the necessary Python packages.
+5. Download this repository as a ZIP file.
+6. Open Blender, go to `Edit > Preferences > Add-ons`.
+7. Click `Install` and select the downloaded ZIP file.
+8. Activate the addon by checking the box next to "Houne Tools".
 
 ## Usage
 
@@ -30,4 +38,3 @@ While the `llama3.1` model provides good results, you may see better script gene
 3. Navigate to the "HouneTools" tab.
 4. Enter your prompt in the text box and click "Generate".
 5. The generated script will be executed automatically.
-
